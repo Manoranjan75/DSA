@@ -1,5 +1,9 @@
 # Singly Linked List
 
+<img src="Images-Doc/Singly-Linked-List.png" alt="Linked List Diagram" width="400">
+
+
+
 A singly linked list is a dynamic linear data structure composed of nodes, where each node holds data and a pointer to the next node; access is sequential rather than by index.  
 
 Operations’ costs vary by position and by whether a tail pointer is maintained:  
