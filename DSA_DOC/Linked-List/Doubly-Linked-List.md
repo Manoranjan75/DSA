@@ -1,5 +1,10 @@
 # Doubly Linked List
 
+<p align="center">
+  <img src="../../Images-Doc/Doubly-linked-list.png" alt="Doubly-linked-list" width="600px"/>
+</p>
+
+
 A **doubly linked list** consists of nodes that each hold data plus `next` and `previous` pointers, allowing forward and backward movement through the structure.  
 This bidirectional linkage simplifies end operations and deleting a known node, since both neighbors can be rewired directly without scanning from the head.
 
