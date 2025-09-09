@@ -81,7 +81,7 @@ public:
         }
     }
 
-    void peak() {
+    void peek() {
         if (top == -1) {
             cout << "Stack is empty, no top element." << endl;
         } else {
@@ -112,11 +112,11 @@ int main() {
     st.push(50);
     st.push(60); // This should show Overflow
 
-    st.peak();
+    st.peek();
     st.pop();
     st.pop();
 
-    st.peak();
+    st.peek();
     st.isEmpty();
 
     return 0;
