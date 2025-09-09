@@ -1,4 +1,7 @@
 # Stack Implementation Using Linked List
+<p align="center">
+  <img src="../../Images-Doc/Stack_images.png" alt="Stack" width="600px"/>
+</p>
 
 ## Overview
 A stack implemented using a linked list stores elements in **nodes** that are dynamically created and linked together, with the **top pointer** serving as the head of the list.  
