@@ -1,5 +1,9 @@
 # Stack Implementation Using Array
 
+<p align="center">
+  <img src="../../Images-Doc/Stack_images.png" alt="Stack" width="600px"/>
+</p>
+
 A stack implemented using an array maintains elements in a fixed-size contiguous memory block with an index pointer tracking the top element.  
 The **LIFO (Last In, First Out)** principle is enforced by only allowing additions and removals at the top position, making operations straightforward but limiting access to other elements.
 
