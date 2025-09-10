@@ -1,5 +1,9 @@
 # Circular Queue Implementation Using Array
 
+<p align="center">
+  <img src="../../Images-Doc/Circular-Queue-Image.png" alt="Stack" width="600px"/>
+</p>
+
 ## Overview
 A **circular queue** implements the **FIFO (First In, First Out)** principle using a fixed-size array with two pointers (`front` and `rear`) that can **wrap around** to the beginning when they reach the end of the array.  
 
