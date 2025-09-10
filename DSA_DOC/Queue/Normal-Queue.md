@@ -1,5 +1,9 @@
 # Linear Queue Implementation Using Array
 
+<p align="center">
+  <img src="../../Images-Doc/Normal-Queue-Image.png" alt="Stack" width="600px"/>
+</p>
+
 ## Overview
 A **linear queue** is a straightforward implementation of the queue data structure using an array, where elements are added at the **rear** end and removed from the **front** end in a strictly sequential manner.  
 The queue uses two pointers:  
