@@ -1,5 +1,9 @@
 # Introduction to Tree and Traversals
 
+<p align="center">
+  <img src="../../Images-Doc/Binary-tree.png" alt="Stack" width="500px"/>
+</p>
+
 ## What is a Tree?
 A **Tree** is a non-linear hierarchical data structure consisting of nodes.
 
