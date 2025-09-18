@@ -1,5 +1,12 @@
 # Rat in a Maze Problem
 
+<p align="center">
+  <img src="../../Images-Doc/Rat_in_Maze.png" alt="Rat_in_Maze" width="400px"/>
+</p>
+
+
+Make an image which shows the Rat in maze problem of backtracking in DSA
+
 ## Question Statement
 You are given an **N × N square maze**, where each cell is either:  
 - `1` → Open path (rat can move here)  
