@@ -1,5 +1,9 @@
 # N-Queens Problem
 
+<p align="center">
+  <img src="../../Images-Doc/N-Queens.png" alt="N-Queens" width="400px"/>
+</p>
+
 The **N-Queens problem** is a classic backtracking problem where we need to place  
 `N` queens on an `N x N` chessboard such that no two queens attack each other.  
 
