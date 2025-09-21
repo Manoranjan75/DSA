@@ -1,5 +1,10 @@
 # Sudoku Solver (Backtracking Approach)
 
+<p align="center">
+  <img src="../../Images-Doc/Sudoku-Solver.png" alt="Sudoku-Solver" width="400px"/>
+</p>
+
+
 ## Problem Statement
 You are given a partially filled **9x9 Sudoku board**.  
 Each empty cell is represented by `0`.  
