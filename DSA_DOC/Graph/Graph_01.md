@@ -1,5 +1,9 @@
 # What is a Graph?
 
+<p align="center">
+  <img src="../../Images-Doc/Graph.png" alt="Graph" width="400px"/>
+</p>
+
 A **Graph** is a non-linear data structure that consists of **nodes (vertices)** connected by **edges**.  
 Graphs are widely used to represent **networks** like social media, road maps, computer networks, etc.
 
