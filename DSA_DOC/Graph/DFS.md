@@ -1,5 +1,9 @@
 # Depth First Search (DFS) in Graph
 
+<p align="center">
+  <img src="../../Images-Doc/DFS_graph.png" alt="DFS_graph" width="400px"/>
+</p>
+
 ## What is DFS?
 Depth First Search (DFS) is a **graph traversal algorithm** that explores as far as possible along each branch **before backtracking**.  
 
