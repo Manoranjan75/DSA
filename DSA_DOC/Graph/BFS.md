@@ -1,5 +1,9 @@
 # Breadth-First Search (BFS) in Graph
 
+<p align="center">
+  <img src="../../Images-Doc/BFS_graph.png" alt="BFS_graph" width="400px"/>
+</p>
+
 ## What is BFS?
 Breadth-First Search (BFS) is a **graph traversal algorithm** that explores nodes **level by level**.
 
