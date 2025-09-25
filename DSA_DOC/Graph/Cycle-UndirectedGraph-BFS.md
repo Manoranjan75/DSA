@@ -1,5 +1,9 @@
 # Cycle Detection in an Undirected Graph using BFS
 
+<p align="center">
+  <img src="../../Images-Doc/undirected_graph_cycle.png" alt="undirected_graph_cycle" width="400px"/>
+</p>
+
 ## About the Code
 This program checks whether a **cycle exists** in an **undirected graph** using **Breadth-First Search (BFS)**.
 
