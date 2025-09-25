@@ -1,5 +1,9 @@
 # Cycle Detection in an Undirected Graph using DFS
 
+<p align="center">
+  <img src="../../Images-Doc/undirected_graph_cycle.png" alt="undirected_graph_cycle" width="400px"/>
+</p>
+
 ##  About the Code
 This program detects a **cycle** in an **undirected graph** using **Depth-First Search (DFS) recursively**.
 
