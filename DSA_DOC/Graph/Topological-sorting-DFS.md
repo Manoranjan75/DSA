@@ -1,5 +1,9 @@
 #  Topological Sort using DFS  
 
+<p align="center">
+  <img src="../../Images-Doc/Topological-sort.png" alt="Topological-sort" width="400px"/>
+</p>
+
 ##  Concept  
 - Topological sorting is used **only for Directed Acyclic Graphs (DAG)**.  
 - It gives a **linear ordering of vertices** such that for every directed edge `(u → v)`, vertex `u` appears before vertex `v`.  
