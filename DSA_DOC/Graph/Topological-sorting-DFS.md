@@ -36,22 +36,22 @@ Vertices in Topological Sort: 5 4 2 3 1 0
 
 ---
 
-## 🔹 Time Complexity  
+##  Time Complexity  
 - DFS visits every vertex once → **O(V)**  
 - Each edge is explored once → **O(E)**  
-✅ **Total = O(V + E)**  
+ **Total = O(V + E)**  
 
 ---
 
-## 🔹 Space Complexity  
+##  Space Complexity  
 - Adjacency list → **O(V + E)**  
 - Visited array → **O(V)**  
 - Recursion stack + output stack → **O(V)**  
-✅ **Total = O(V + E)**  
+ **Total = O(V + E)**  
 
 ---
 
-## 🖥️ Code  
+##  Code  
 
 ```cpp
 // Topological Sorting in Graph using DFS
