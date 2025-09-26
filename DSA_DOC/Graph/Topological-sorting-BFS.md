@@ -1,5 +1,9 @@
 # Topological Sort using BFS (Kahn’s Algorithm)
 
+<p align="center">
+  <img src="../../Images-Doc/Topological-sort.png" alt="Topological-sort" width="400px"/>
+</p>
+
 ##  Concept  
 - Works only on **Directed Acyclic Graphs (DAG)**.  
 - Based on **in-degree** (number of incoming edges).  
