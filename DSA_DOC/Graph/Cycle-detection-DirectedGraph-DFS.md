@@ -1,5 +1,9 @@
 #  Cycle Detection in Directed Graph (DFS Approach)
 
+<p align="center">
+  <img src="../../Images-Doc/Cycle-directed-graph.png" alt="Cycle-directed-graph" width="400px"/>
+</p>
+
 ##  Concept
 - Works for **Directed Graphs**.  
 - Uses **DFS + Recursion Stack** to detect cycles.  
