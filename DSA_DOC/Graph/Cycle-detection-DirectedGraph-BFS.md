@@ -1,5 +1,4 @@
-#  Cycle Detection in Directed Graph (DFS)
-
+#  Cycle Detection in Directed Graph (BFS - Kahn’s Algorithm)
 
 <p align="center">
   <img src="../../Images-Doc/Cycle-directed-graph.png" alt="Cycle-directed-graph" width="400px"/>
@@ -7,17 +6,25 @@
 
 ---
 
-## Time Complexity
-- Building adjacency list → **O(m)** (where `m` = number of edges)  
-- DFS traversal (nodes + edges) → **O(n + m)**  
+##  Idea
+- Kahn’s Algorithm is mainly used for **Topological Sorting**.  
+- In a **Directed Acyclic Graph (DAG)**, a valid topological order always exists and contains all nodes.  
+- If the graph has a **cycle**, then not all nodes will be included in the topological order (some nodes never reach in-degree 0).  
+-  So, if the number of nodes in topo-order `< n`, a **cycle exists**.  
+
+---
+
+##  Time Complexity
+- Computing in-degree → **O(m)** (where `m` = number of edges)  
+- BFS traversal → **O(n + m)**  
  **Overall: O(n + m)**  
 
 ---
 
 ##  Space Complexity
 - Adjacency list → **O(n + m)**  
-- `visited` + `dfsVisited` maps → **O(n)**  
-- Recursion stack (DFS depth) → **O(n)**  
+- In-degree array → **O(n)**  
+- Queue → **O(n)**  
  **Overall: O(n + m)**  
 
 ---
@@ -29,51 +36,47 @@
 using namespace std;
 
 class Graph {
-    // Adjacency list to store graph: node -> list of neighbours
     unordered_map<int, list<int>> adj;
-    // Track if a node has been visited at least once
-    unordered_map<int, bool> visited;
-    // Track nodes in the current recursion stack
-    unordered_map<int, bool> dfsVisited;
 
 public:
-    // Function to add a directed edge u -> v
     void addEdge(int u, int v) {
-        adj[u].push_back(v); // directed edge
+        adj[u].push_back(v); // Directed edge
     }
 
-    // DFS function to detect cycle
-    bool dfs(int node) {
-        visited[node] = true;       // mark node as visited
-        dfsVisited[node] = true;    // mark node in current recursion stack
-
-        // Explore all neighbours of this node
-        for (auto neighbour : adj[node]) {
-            // If neighbour is not visited, recursively DFS
-            if (!visited[neighbour]) {
-                if (dfs(neighbour)) 
-                    return true;    // cycle found
-            }
-            // If neighbour is visited and is in recursion stack → cycle detected
-            else if (dfsVisited[neighbour]) {
-                return true;
-            }
-        }
-
-        // Backtrack: remove from recursion stack before returning
-        dfsVisited[node] = false;
-        return false;
-    }
-
-    // Function to check if graph has a cycle
     bool isCyclic(int n) {
-        for (int i = 0; i < n; i++) {
-            if (!visited[i]) {
-                if (dfs(i)) 
-                    return true;
+        // Step 1: Compute in-degree of each node
+        vector<int> in_degree(n, 0);
+        for (auto &node : adj) {
+            for (auto neighbour : node.second) {
+                in_degree[neighbour]++;
             }
         }
-        return false;
+
+        // Step 2: Push nodes with in-degree 0 into queue
+        queue<int> q;
+        for (int i = 0; i < n; i++) {
+            if (in_degree[i] == 0) {
+                q.push(i);
+            }
+        }
+
+        // Step 3: Process nodes
+        int count = 0; // count of visited nodes
+        while (!q.empty()) {
+            int front = q.front();
+            q.pop();
+            count++;
+
+            for (auto neighbour : adj[front]) {
+                in_degree[neighbour]--;
+                if (in_degree[neighbour] == 0) {
+                    q.push(neighbour);
+                }
+            }
+        }
+
+        // Step 4: If count != n, cycle exists
+        return (count != n);
     }
 };
 
