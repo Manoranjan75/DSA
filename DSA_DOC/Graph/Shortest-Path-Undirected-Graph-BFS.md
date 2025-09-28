@@ -1,5 +1,10 @@
 #  Shortest Path in an Undirected Graph (BFS)
 
+<p align="center">
+  <img src="../../Images-Doc/Shortest-Path-Undirected-Graph.png" alt="Shortest-Path-Undirected-Graph" width="400px"/>
+</p>
+
+
 ---
 
 ## Idea
