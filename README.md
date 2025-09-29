@@ -1,4 +1,4 @@
-#  Data Structures and Algorithms (DSA) Repository
+#  Data Structures and Algorithms (DSA)
 
 <p align="center">
   <img src="./Images-Doc/DSA.png" alt="DSA" width="500px" />
