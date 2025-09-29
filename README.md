@@ -1,7 +1,7 @@
 #  Data Structures and Algorithms (DSA) Repository
 
 <p align="center">
-  <img src="./Images-Doc/DSA.png" alt="DSA" width="700px" />
+  <img src="./Images-Doc/DSA.png" alt="DSA" width="500px" />
 </p>
 
 
