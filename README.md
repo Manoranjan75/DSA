@@ -9,7 +9,6 @@ The aim is to provide organized solutions for practice, learning, and interview 
 
 - **Foundation of Programming:** DSA is the backbone of writing efficient code.  
 - **Optimized Problem Solving:** Helps in solving real-world problems within given time and memory constraints.  
-- **Interviews & Competitive Programming:** DSA is a must-have skill for cracking technical interviews and coding contests.  
 - **Scalability:** Efficient algorithms and structures allow software systems to scale smoothly.  
 - **Thinking Ability:** Improves logical and analytical thinking for approaching problems step by step.
 
