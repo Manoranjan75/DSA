@@ -1,5 +1,10 @@
 #  Data Structures and Algorithms (DSA) Repository
 
+<p align="center">
+  <img src="./Images-Doc/DSA.png" alt="DSA" width="700px" />
+</p>
+
+
 This repository contains well-structured implementations and problem-solving approaches for **Data Structures and Algorithms (DSA)**.  
 The aim is to provide organized solutions for practice, learning, and interview preparation.
 
