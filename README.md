@@ -37,18 +37,18 @@ The repository is divided into topic-specific folders, each with interesting ins
    - Famous algorithms: KMP, Rabin-Karp, Z-algorithm.  
    - Fun fact: Strings are one of the most memory-heavy structures in Java!  
 
-3. [**Linked-List**](./Linked-List)  
+3. [**Linked-List**](./DSA_DOC/Linked-List)  
    - Dynamic memory allocation with nodes connected via pointers.  
    - Used in implementing stacks, queues, and adjacency lists in graphs.  
    - Supports constant-time insertion/deletion at the ends.  
    - Fun fact: The concept was first introduced by **Allen Newell, Cliff Shaw, and Herbert Simon** in 1956.  
 
-4. [**Stack**](./Stack)  
+4. [**Stack**](./DSA_DOC/Stack)  
    - Follows **LIFO (Last In First Out)** principle.  
    - Applications: Expression evaluation, undo operations, function call stack.  
    - Fun fact: The word "stack" comes from the analogy of stacking plates!  
 
-5. [**Queue**](./Queue)  
+5. [**Queue**](./DSA_DOC/Queue)  
    - Follows **FIFO (First In First Out)** principle.  
    - Applications: CPU scheduling, data buffering, order processing.  
    - Variants: Circular queue, Deque, Priority queue.  
@@ -59,7 +59,7 @@ The repository is divided into topic-specific folders, each with interesting ins
    - Used in divide-and-conquer algorithms like Merge Sort, Quick Sort.  
    - Fun fact: Recursion is deeply connected with mathematical induction.  
 
-7. [**Backtracking**](./Backtracking)  
+7. [**Backtracking**](./DSA_DOC/Backtracking)  
    - Trial-and-error algorithm to explore all possibilities.  
    - Famous problems: N-Queens, Sudoku Solver, Rat in a Maze.  
    - Fun fact: Backtracking is often described as **"depth-first search with pruning"**.  
@@ -69,12 +69,12 @@ The repository is divided into topic-specific folders, each with interesting ins
    - Famous sorts: Merge Sort, Quick Sort, Heap Sort.  
    - Fun fact: The fastest general-purpose sorting algorithm in practice is **Timsort** (used in Python & Java).  
 
-9. [**Tree**](./Tree)  
+9. [**Tree**](./DSA_DOC/Tree)  
    - Hierarchical structure with a root and children.  
    - Used in databases (B-trees), compilers (syntax trees), AI (decision trees).  
    - Fun fact: A **full binary tree** with `n` internal nodes always has `n+1` leaf nodes.  
 
-10. [**Graph**](./Graph)  
+10. [**Graph**](./DSA_DOC/Graph)  
     - Represents relationships between entities (nodes and edges).  
     - Applications: Maps, networks, social media, recommendation systems.  
     - Famous algorithms: BFS, DFS, Dijkstra’s, Kruskal’s, Prim’s.  
