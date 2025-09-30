@@ -25,13 +25,13 @@ The aim is to provide organized solutions for practice, learning, and interview 
 
 The repository is divided into topic-specific folders, each with interesting insights:
 
-1. [**Array**](./Array)  
+1. [**Array**]
    - Stores elements in contiguous memory locations.  
    - Provides **O(1)** access time for elements.  
    - Basis of higher-level structures like matrices and hash tables.  
    - Fun fact: The term *array* was introduced in the 1950s during early FORTRAN development.  
 
-2. [**String**](./String)  
+2. [**String**] 
    - Sequence of characters, essential for text processing.  
    - Used in search engines, DNA sequencing, and compilers.  
    - Famous algorithms: KMP, Rabin-Karp, Z-algorithm.  
@@ -54,7 +54,7 @@ The repository is divided into topic-specific folders, each with interesting ins
    - Variants: Circular queue, Deque, Priority queue.  
    - Fun fact: Printers internally use queues to manage print jobs.  
 
-6. [**Recursion**](./Recursion)  
+6. [**Recursion**]
    - A function calling itself to solve smaller instances.  
    - Used in divide-and-conquer algorithms like Merge Sort, Quick Sort.  
    - Fun fact: Recursion is deeply connected with mathematical induction.  
