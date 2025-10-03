@@ -25,7 +25,7 @@ The aim is to provide organized solutions for practice, learning, and interview 
 
 The repository is divided into topic-specific folders, each with interesting insights:
 
-1. [**Array**]
+1. [**Array**](./DSA_DOC/Array)  
    - Stores elements in contiguous memory locations.  
    - Provides **O(1)** access time for elements.  
    - Basis of higher-level structures like matrices and hash tables.  
