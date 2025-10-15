@@ -31,7 +31,7 @@ The repository is divided into topic-specific folders, each with interesting ins
    - Basis of higher-level structures like matrices and hash tables.  
    - Fun fact: The term *array* was introduced in the 1950s during early FORTRAN development.  
 
-2. [**String**] 
+2. [**String**](./DSA_DOC/String) 
    - Sequence of characters, essential for text processing.  
    - Used in search engines, DNA sequencing, and compilers.  
    - Famous algorithms: KMP, Rabin-Karp, Z-algorithm.  
