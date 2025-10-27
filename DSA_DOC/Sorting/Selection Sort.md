@@ -1,6 +1,8 @@
 #  Selection Sort (C++)
 
----
+<p align="center">
+  <img src="../../Images-Doc/Selection_sort.png" alt="Selection_sort" width="350px"/>
+</p>
 
 ##  Concept
 
