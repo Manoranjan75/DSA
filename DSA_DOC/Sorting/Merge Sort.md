@@ -1,6 +1,8 @@
 #  Merge Sort (C++)
 
----
+<p align="center">
+  <img src="../../Images-Doc/Merge-Sort.png" alt="Merge-Sort" width="450px"/>
+</p>
 
 ##  Concept
 
