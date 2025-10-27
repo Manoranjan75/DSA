@@ -1,6 +1,8 @@
 #  Bubble Sort (C++)
 
----
+<p align="center">
+  <img src="../../Images-Doc/Bubble_sort.png" alt="Bubble_sort" width="450px"/>
+</p>
 
 ##  Concept
 
