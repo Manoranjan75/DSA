@@ -1,6 +1,8 @@
 #  Insertion Sort (C++)
 
----
+<p align="center">
+  <img src="../../Images-Doc/Insertion_Sort.png" alt="Insertion_Sort" width="400px"/>
+</p>
 
 ##  Concept
 
