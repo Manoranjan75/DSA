@@ -1,6 +1,8 @@
 #  Quick Sort (C++)
 
----
+<p align="center">
+  <img src="../../Images-Doc/Quick-Sort.png" alt="Quick-Sort" width="450px"/>
+</p>
 
 ##  Concept
 
