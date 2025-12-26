@@ -54,10 +54,10 @@ The repository is divided into topic-specific folders, each with interesting ins
    - Variants: Circular queue, Deque, Priority queue.  
    - Fun fact: Printers internally use queues to manage print jobs.  
 
-6. [**Dynamic Pogramming**](./DSA_DOC/Dynamic Programming)
-  - Solves problems by breaking them into overlapping subproblems and storing their results (via memoization or tabulation) to avoid repeated computation.
-  - Typically derived from recursion, but optimized to reduce exponential time complexity to polynomial by reusing previously computed states.
-  - Fun fact: Dynamic Programming is a practical application of mathematical induction, where solutions to smaller states build the solution to larger ones.
+6. [**Dynamic Pogramming**](./DSA_DOC/Dynamic_Programming)
+   - Solves problems by breaking them into overlapping subproblems and storing their results (via memoization or tabulation) to avoid repeated computation.
+   - Typically derived from recursion, but optimized to reduce exponential time complexity to polynomial by reusing previously computed states.
+   - Fun fact: Dynamic Programming is a practical application of mathematical induction, where solutions to smaller states build the solution to larger ones.
 
 7. [**Backtracking**](./DSA_DOC/Backtracking)  
    - Trial-and-error algorithm to explore all possibilities.  
