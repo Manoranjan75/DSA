@@ -35,46 +35,53 @@ The repository is divided into topic-specific folders, each with interesting ins
    - Sequence of characters, essential for text processing.  
    - Used in search engines, DNA sequencing, and compilers.  
    - Famous algorithms: KMP, Rabin-Karp, Z-algorithm.  
-   - Fun fact: Strings are one of the most memory-heavy structures in Java!  
+   - Fun fact: Strings are one of the most memory-heavy structures in Java!
 
-3. [**Linked-List**](./DSA_DOC/Linked-List)  
+3. [**Sorting**](./DSA_DOC/Sorting)  
+   - Essential algorithms for ordered data manipulation.  
+   - Famous sorts: Merge Sort, Quick Sort, Heap Sort.  
+   - Merge Sort is preferred in many real-world systems for sorting large datasets because it guarantees 𝑂(𝑛log𝑛) time complexity.
+
+4. [**Binary Search**]
+   - Efficient searching technique that operates on sorted data, repeatedly halving the search interval.
+   - Achieves 𝑂(log𝑛)time complexity, making it suitable for large datasets.
+   - Fun fact: Binary search underpins many real-world systems, including database indexing and lower/upper bound operations in standard libraries.
+
+
+5. [**Linked-List**](./DSA_DOC/Linked-List)  
    - Dynamic memory allocation with nodes connected via pointers.  
    - Used in implementing stacks, queues, and adjacency lists in graphs.  
    - Supports constant-time insertion/deletion at the ends.  
    - Fun fact: The concept was first introduced by **Allen Newell, Cliff Shaw, and Herbert Simon** in 1956.  
 
-4. [**Stack**](./DSA_DOC/Stack)  
+6. [**Stack**](./DSA_DOC/Stack)  
    - Follows **LIFO (Last In First Out)** principle.  
    - Applications: Expression evaluation, undo operations, function call stack.  
    - Fun fact: The word "stack" comes from the analogy of stacking plates!  
 
-5. [**Queue**](./DSA_DOC/Queue)  
+7. [**Queue**](./DSA_DOC/Queue)  
    - Follows **FIFO (First In First Out)** principle.  
    - Applications: CPU scheduling, data buffering, order processing.  
    - Variants: Circular queue, Deque, Priority queue.  
    - Fun fact: Printers internally use queues to manage print jobs.  
 
-6. [**Dynamic Pogramming**](./DSA_DOC)
+8. [**Dynamic Pogramming**](./DSA_DOC)
    - Solves problems by breaking them into overlapping subproblems and storing their results (via memoization or tabulation) to avoid repeated computation.
    - Typically derived from recursion, but optimized to reduce exponential time complexity to polynomial by reusing previously computed states.
    - Fun fact: Dynamic Programming is a practical application of mathematical induction, where solutions to smaller states build the solution to larger ones.
 
-7. [**Backtracking**](./DSA_DOC/Backtracking)  
+9. [**Backtracking**](./DSA_DOC/Backtracking)  
    - Trial-and-error algorithm to explore all possibilities.  
    - Famous problems: N-Queens, Sudoku Solver, Rat in a Maze.  
    - Fun fact: Backtracking is often described as **"depth-first search with pruning"**.  
 
-8. [**Searching and Sorting**](./Searching%20and%20Sorting)  
-   - Essential algorithms for ordered data manipulation.  
-   - Famous sorts: Merge Sort, Quick Sort, Heap Sort.  
-   - Fun fact: The fastest general-purpose sorting algorithm in practice is **Timsort** (used in Python & Java).  
 
-9. [**Tree**](./DSA_DOC/Tree)  
+10. [**Tree**](./DSA_DOC/Tree)  
    - Hierarchical structure with a root and children.  
    - Used in databases (B-trees), compilers (syntax trees), AI (decision trees).  
    - Fun fact: A **full binary tree** with `n` internal nodes always has `n+1` leaf nodes.  
 
-10. [**Graph**](./DSA_DOC/Graph)  
+11. [**Graph**](./DSA_DOC/Graph)  
     - Represents relationships between entities (nodes and edges).  
     - Applications: Maps, networks, social media, recommendation systems.  
     - Famous algorithms: BFS, DFS, Dijkstra’s, Kruskal’s, Prim’s.  
