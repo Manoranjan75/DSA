@@ -73,15 +73,20 @@ The repository is divided into topic-specific folders, each with interesting ins
 9. [**Backtracking**](./DSA_DOC/Backtracking)  
    - Trial-and-error algorithm to explore all possibilities.  
    - Famous problems: N-Queens, Sudoku Solver, Rat in a Maze.  
-   - Fun fact: Backtracking is often described as **"depth-first search with pruning"**.  
+   - Fun fact: Backtracking is often described as **"depth-first search with pruning"**.
+
+10. [**Greedy Algorithms**](./DSA_DOC)
+   - Solve problems by making the best immediate (local) choice at each step.
+   - Commonly used when problems involve sorting, deadlines, intervals, or ratios.
+   - Fun fact: Many real-world scheduling systems (CPU scheduling, event planning, task allocation) rely on greedy logic for fast and efficient decisions.
 
 
-10. [**Tree**](./DSA_DOC/Tree)  
+12. [**Tree**](./DSA_DOC/Tree)  
    - Hierarchical structure with a root and children.  
    - Used in databases (B-trees), compilers (syntax trees), AI (decision trees).  
    - Fun fact: A **full binary tree** with `n` internal nodes always has `n+1` leaf nodes.  
 
-11. [**Graph**](./DSA_DOC/Graph)  
+12. [**Graph**](./DSA_DOC/Graph)  
     - Represents relationships between entities (nodes and edges).  
     - Applications: Maps, networks, social media, recommendation systems.  
     - Famous algorithms: BFS, DFS, Dijkstra’s, Kruskal’s, Prim’s.  
