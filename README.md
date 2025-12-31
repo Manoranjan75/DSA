@@ -42,7 +42,7 @@ The repository is divided into topic-specific folders, each with interesting ins
    - Famous sorts: Merge Sort, Quick Sort, Heap Sort.  
    - Merge Sort is preferred in many real-world systems for sorting large datasets because it guarantees 𝑂(𝑛log𝑛) time complexity.
 
-4. [**Binary Search**]
+4. [**Binary Search**](./DSA_DOC)
    - Efficient searching technique that operates on sorted data, repeatedly halving the search interval.
    - Achieves 𝑂(log𝑛)time complexity, making it suitable for large datasets.
    - Fun fact: Binary search underpins many real-world systems, including database indexing and lower/upper bound operations in standard libraries.
