@@ -5,9 +5,8 @@
 </p>
 
 
-Make an image which shows the Rat in maze problem of backtracking in DSA
 
-## Question Statement
+
 You are given an **N × N square maze**, where each cell is either:  
 - `1` → Open path (rat can move here)  
 - `0` → Blocked path (rat cannot move here)  
