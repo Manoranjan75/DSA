@@ -1,5 +1,10 @@
 # Trie Data Structure — Insert & Search  
 
+<p align="center">
+  <img src="../../Images-Doc/Trie.png" alt="Trie" width="400px"/>
+</p>
+
+
 A **Trie** (Prefix Tree) is a special tree used to store strings efficiently, especially for prefix-based operations such as:
 - Autocomplete  
 - Searching words  
